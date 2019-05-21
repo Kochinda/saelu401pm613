@@ -48,7 +48,7 @@ let clearBtn = document.getElementById('clear');
 
         for ( let i = 0; i < removeP.length; i++) {
             console.log(removeP[i]);
-            removeP[i].remove();
+            removeP[i].textContent = '';
         }
 
         // removeP.remove();
