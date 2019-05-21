@@ -56,4 +56,33 @@ nav ul{
 }
 
 
+@media screen and (max-width:580px){
 
+    nav{
+        display: none;
+    }
+
+    .font{
+        font-size: 15px;
+    }
+
+    body{
+        width: 480px;
+    }
+
+    #clear{
+        width: 100px;
+        position: fixed;
+        top: 320px;
+        right: 0;
+        font-size: 10px;
+    }
+
+    input{
+        display: block;
+        margin-top: 20px;
+        
+    }
+
+
+}
