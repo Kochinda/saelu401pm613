@@ -33,25 +33,42 @@ checkBtn2.addEventListener('click', function () {
 
 });
 
+let checkBtn3 = document.getElementById('check3');
+checkBtn3.addEventListener('click', function () {
+
+    let answer3 = document.getElementById('answer3');
+
+    answer3.textContent = 'こたえは、１ たのしみだ';
+    answer3.style.color = 'red';
+
+    // 答えの判定の 画面の表示 
+    let marubatu3 = document.getElementById('marubatu3');
+    let q3 = document.getElementsByClassName("q3");
+    marubatu3.textContent = checkAnswer(q3);
+
+
+});
+
 let clearBtn = document.getElementById('clear');
 
     clearBtn.addEventListener('click', function (){
-        // answer1.textContent= '';
-        // marubatu.textContent= '';
-
-        // answer2.textContent= '';
-        // marubatu2.textContent= '';
-
+        // remove P TAGを取得する
         let removeP = document.getElementsByClassName("remove");
-
+       
+        // 取得できてるか確認する
         console.log(removeP);
 
+        // 取得したremoveP(配列的なデータ）を繰り返し処理する
         for ( let i = 0; i < removeP.length; i++) {
+            
+            // 配列のデータがすべて取得できているか確認する
             console.log(removeP[i]);
+
+            // タグのコンテンツを空白にする処理
             removeP[i].textContent = '';
         }
 
-        // removeP.remove();
+        // removeP.remove();ではできない。
 
 
 

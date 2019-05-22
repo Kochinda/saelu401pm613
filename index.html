@@ -9,56 +9,65 @@
 
 </head>
 <body>
-<nav>
-    <ul>
-        <li>ことば</li>
-        <li>かんじ</li>
-        <li>ぶんぽう</li>
-        <li>ちょうかい</li>
-    </ul>
-</nav>
+    <!-- <nav>
+        <ul>
+            <li>ことば</li>
+            <li>かんじ</li>
+            <li>ぶんぽう</li>
+            <li>ちょうかい</li>
+        </ul>
+    </nav> -->
 
     <div class="containar">
-    <form action=""> 
-        <h1 class="font"> 次の文の＿の意味に最も近いものを1・2・3・4の中から選んでください。</h1>
-        <section class="section1 ">
-            
-            <h2 class="font">（１） <span>ゆうべ</span>、国の家族に電話をかけました。</h2>
-            <input class="q1 " type="radio" name="answer1" value="0" id="1-1"> <label for="1-1" class="font">1 きのうのあさ</label> 
-            <input class="q1 " type="radio" name="answer1" value="0" id="1-2" > <label for="1-2" class="font">2 きのうのひる</label>
-            <input class="q1 " type="radio" name="answer1" value="1" id="1-3"> <label for="1-3" class="font">3 きのうのばん</label>
-            <input class="q1 " type="radio" name="answer1" value="0" id="1-4"> <label for="1-4" class="font">4 きょうのあさ</label>
-            <br>
-            <button id="check1" type="button" class="font">チェック</button>
-            <p id="marubatu" class="font remove"></p>
-            <p id="answer1"  class="font remove"></p>
-
-            
-        
-
-        </section>
-
-        <section class="section2">
-                <h2 class="font">（２） 昨日、インターネットでコンサートの<span>きっぷ</span>をかいました。</h2>
+        <form action=""> 
+            <h1 class="font"> 次の文の＿の意味に最も近いものを1・2・3・4の中から選んでください。</h1>
+            <section class="section1 position-relative">
                 
-                <input class="q2 " type="radio" name="answer2" value="0" id="2-1" > <label for="2-1" class="font">1 チェック</label> 
-                <input class="q2 " type="radio" name="answer2" value="0"id="2-2" > <label for="2-2" class="font">2 コップ</label>                 
-                <input class="q2 " type="radio" name="answer2" value="0" id="2-3"> <label for="2-3" class="font">3 フォーク</label> 
-                <input class="q2 " type="radio" name="answer2" value="1" id="2-4"> <label for="2-4" class="font">4 チケット</label>
+                <h2 class="font">（１） <span>ゆうべ</span>、国の家族に電話をかけました。</h2>
+
+                <input class="q1 " type="radio" name="answer1" value="0" id="1-1"> <label for="1-1" class="font">1 きのうのあさ</label> <br>
+                <input class="q1 " type="radio" name="answer1" value="0" id="1-2" > <label for="1-2" class="font">2 きのうのひる</label><br>
+                <input class="q1 " type="radio" name="answer1" value="1" id="1-3"> <label for="1-3" class="font">3 きのうのばん</label><br>
+                <input class="q1 " type="radio" name="answer1" value="0" id="1-4"> <label for="1-4" class="font">4 きょうのあさ</label><br>
                 <br>
-                <button id="check2" type="button"class="font">チェック</button> <br>
-                <p id="marubatu2" class="font remove"></p>
+                <button id="check1" type="button" class="font check-btn">チェック</button>
+                <p id="marubatu" class="font remove show"></p>
+                <p id="answer1"  class="font remove show"></p>
+          
+            </section>
 
-                <p id="answer2" class="font remove"></p>
-
+            <section class="section2 position-relative">
+                    <h2 class="font">（２） 昨日、インターネットでコンサートの<span>きっぷ</span>をかいました。</h2>
+                    
+                    <input class="q2 " type="radio" name="answer2" value="0" id="2-1" > <label for="2-1" class="font">1 チェック</label> <br>
+                    <input class="q2 " type="radio" name="answer2" value="0"id="2-2" > <label for="2-2" class="font">2 コップ</label> <br>                
+                    <input class="q2 " type="radio" name="answer2" value="0" id="2-3"> <label for="2-3" class="font">3 フォーク</label><br> 
+                    <input class="q2 " type="radio" name="answer2" value="1" id="2-4"> <label for="2-4" class="font">4 チケット</label><br>
+                    <br>
+                    <button id="check2" type="button"class="font check-btn">チェック</button> <br>
+                    <p id="marubatu2" class="font remove show"></p>
+                     <p id="answer2" class="font remove show"></p>
+     
+            </section>
+            
+            <section class="section3 position-relative">
+                <h2 class="font">（3）明日からのことを思うと<span>わくわく</span>する。</h2>
                 
+                <input class="q3 " type="radio" name="answer3" value="1" id="3-1" > <label for="3-1" class="font">1 楽しみだ</label> <br>
+                <input class="q3 " type="radio" name="answer3" value="0"id="3-2" > <label for="3-2" class="font">2 緊張する</label> <br>                
+                <input class="q3 " type="radio" name="answer3" value="0" id="3-3"> <label for="3-3" class="font">3 心配だ</label> <br>
+                <input class="q3 " type="radio" name="answer3" value="0" id="3-4"> <label for="3-4" class="font">4 恐ろしい</label><br>
+                <br>
+                <button id="check3" type="button"class="font check-btn">チェック</button> <br>
+                <p id="marubatu3" class="font remove show"></p>
+                <p id="answer3" class="font remove show"></p>
+ 
         </section>
-                   
-        
+            
 
-        <button id="clear" type="reset">こたえをクリア</button>
+            <button id="clear" type="reset">こたえをクリア</button>
 
-    </form>   
+        </form>   
     </div>
 
     
