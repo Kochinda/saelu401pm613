@@ -6,7 +6,7 @@ checkBtn.addEventListener('click', function () {
     let answer1 = document.getElementById('answer1');
 
     answer1.textContent = 'こたえは、 3 きのうのばん';
-    answer1.style.color = 'red';
+    
 
     // 画面の表示 
     let marubatu = document.getElementById('marubatu');
@@ -23,7 +23,7 @@ checkBtn2.addEventListener('click', function () {
     let answer2 = document.getElementById('answer2');
 
     answer2.textContent = 'こたえは、4 チケット';
-    answer2.style.color = 'red';
+
 
     // 答えの判定の 画面の表示 
     let marubatu2 = document.getElementById('marubatu2');
@@ -39,13 +39,89 @@ checkBtn3.addEventListener('click', function () {
     let answer3 = document.getElementById('answer3');
 
     answer3.textContent = 'こたえは、１ たのしみだ';
-    answer3.style.color = 'red';
+
 
     // 答えの判定の 画面の表示 
     let marubatu3 = document.getElementById('marubatu3');
     let q3 = document.getElementsByClassName("q3");
     marubatu3.textContent = checkAnswer(q3);
 
+
+});
+
+let checkBtn4 = document.getElementById('check4');
+checkBtn4.addEventListener('click', function () {
+
+    let answer4 = document.getElementById('answer4');
+
+    answer4.textContent = 'こたえは、4 やさしすぎる';
+
+
+    // 答えの判定の 画面の表示 
+    let marubatu4 = document.getElementById('marubatu4');
+    let q4 = document.getElementsByClassName("q4");
+    marubatu4.textContent = checkAnswer(q4);
+
+
+});
+
+let checkBtn5 = document.getElementById('check5');
+checkBtn5.addEventListener('click', function () {
+
+    let answer5 = document.getElementById('answer5');
+
+    answer5.textContent = 'こたえは、3 がんこに';
+
+
+    // 答えの判定の 画面の表示 
+    let marubatu5 = document.getElementById('marubatu5');
+    let q5 = document.getElementsByClassName("q5");
+    marubatu5.textContent = checkAnswer(q5);
+
+});
+
+let checkBtn6 = document.getElementById('check6');
+checkBtn6.addEventListener('click', function () {
+
+    let answer6 = document.getElementById('answer6');
+
+    answer6.textContent = 'こたえは、3 引き受けるかもしれない';
+
+
+    // 答えの判定の 画面の表示 
+    let marubatu6 = document.getElementById('marubatu6');
+    let q6 = document.getElementsByClassName("q6");
+    marubatu6.textContent = checkAnswer(q6);
+
+});
+
+let checkBtn7 = document.getElementById('check7');
+checkBtn7.addEventListener('click', function () {
+
+    let answer7 = document.getElementById('answer7');
+
+    answer7.textContent = 'こたえは、２ 偶然';
+
+
+    // 答えの判定の 画面の表示 
+    let marubatu7 = document.getElementById('marubatu7');
+    let q7 = document.getElementsByClassName("q7");
+    marubatu7.textContent = checkAnswer(q7);
+
+});
+
+let checkBtn8 = document.getElementById('check8');
+checkBtn8.addEventListener('click', function () {
+
+    let answer8 = document.getElementById('answer8');
+
+    answer8.textContent = 'こたえは、４ うその情報';
+
+
+    // 答えの判定の 画面の表示 
+    let marubatu8 = document.getElementById('marubatu8');
+    let q8 = document.getElementsByClassName("q8");
+    marubatu8.textContent = checkAnswer(q8);
 
 });
 
@@ -92,6 +168,8 @@ function checkAnswer(choices) {
     }
 
 }
+
+
 
 
 // クリアのボタンがクリックされたら、

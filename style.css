@@ -1,53 +1,33 @@
 /* font design */
-span{
-    text-decoration-line: underline;
+.title{
+    /* font-size: 45px; */
+    color: blue;
+    margin-top: 3%;
+    text-align: center;
 }
 
 .font{
     font-family: "UD Digi Kyokasho N-B";
 }
 
-/* body  */
+span{
+    text-decoration: underline;
+}
+
 body{
-    background-color: aquamarine;
-    width: 800px;
-    margin: 0 auto;
-    padding:50px;
+    background-color: antiquewhite;
 }
-
-/* nav bar */
-/* nav{
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    top:0;
-    left: 0;
-    background-color: lightpink;
-    
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-}
- nav li{
-     display: inline;
-     border: 2px solid black;
-     margin-left: 20px;
-     padding: 0 10px;
-     border-radius: 10%;
- } */
-
 /* Question layout */
-
-.position-relative{
-    position: relative;
-    margin-top: 30px;
-}
 
 .show{
     display: inline;
-    
+    color: red;
+     
+}
+
+.answer{
+    display: inline;
+    color: blue;
     
 }
 
@@ -64,36 +44,26 @@ nav ul{
     border-radius: 5px;
     background-color: blue;
     color: white;
-    position: absolute;
-    right:30px;
-    bottom: 30px;
+    display: inline;
+
+}
+
+.fa-arrow-circle-up{
+    color: #28a745;
 }
 
 
 @media screen and (max-width:580px){
 
-    nav{
-        display: none;
-    }
-
     .font{
-        font-size: 15px;
-    }
-
-    body{
-        width: 480px;
+         font-size: 15px; 
     }
 
     #clear{
+
         width: 100px;
         font-size: 10px;
-    }
-
-    input{
-        display: block;
-        margin-top: 20px;
-        
-    }
+    } 
 
     .show{
         padding: 0;
@@ -102,7 +72,8 @@ nav ul{
     .check-btn{
         right:10px;
         bottom: 10px;
+        font-size: 10px;
 
 
-    }
+    } 
 }
