@@ -35,6 +35,8 @@ body{
     width: 200px;
     height: 30px;
     background-color: yellow;
+    border-color: black;
+    border-radius: 10px;
     color: red;
     
 }
@@ -43,6 +45,8 @@ body{
 .check-btn{
     border-radius: 5px;
     background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
     color: white;
     display: inline;
 
