@@ -5,7 +5,7 @@ checkBtn.addEventListener('click', function () {
 
     let answer1 = document.getElementById('answer1');
 
-    answer1.textContent = 'こたえは、 3 きのうのばん';
+    answer1.textContent = 'こたえは、 1 です。';
     
 
     // 画面の表示 
@@ -22,7 +22,7 @@ checkBtn2.addEventListener('click', function () {
 
     let answer2 = document.getElementById('answer2');
 
-    answer2.textContent = 'こたえは、4 チケット';
+    answer2.textContent = 'こたえは、２ です。';
 
 
     // 答えの判定の 画面の表示 
@@ -38,7 +38,7 @@ checkBtn3.addEventListener('click', function () {
 
     let answer3 = document.getElementById('answer3');
 
-    answer3.textContent = 'こたえは、１ たのしみだ';
+    answer3.textContent = 'こたえは、３ です。';
 
 
     // 答えの判定の 画面の表示 
@@ -54,7 +54,7 @@ checkBtn4.addEventListener('click', function () {
 
     let answer4 = document.getElementById('answer4');
 
-    answer4.textContent = 'こたえは、4 やさしすぎる';
+    answer4.textContent = 'こたえは、１です。からだをつくります。';
 
 
     // 答えの判定の 画面の表示 
@@ -70,7 +70,7 @@ checkBtn5.addEventListener('click', function () {
 
     let answer5 = document.getElementById('answer5');
 
-    answer5.textContent = 'こたえは、3 がんこに';
+    answer5.textContent = 'こたえは、3 です。エネルギーになります。';
 
 
     // 答えの判定の 画面の表示 
@@ -85,7 +85,7 @@ checkBtn6.addEventListener('click', function () {
 
     let answer6 = document.getElementById('answer6');
 
-    answer6.textContent = 'こたえは、3 引き受けるかもしれない';
+    answer6.textContent = 'こたえは、２です。 からだのちょうしをととのえます。';
 
 
     // 答えの判定の 画面の表示 
@@ -100,7 +100,7 @@ checkBtn7.addEventListener('click', function () {
 
     let answer7 = document.getElementById('answer7');
 
-    answer7.textContent = 'こたえは、２ 偶然';
+    answer7.textContent = 'こたえは、４ です。';
 
 
     // 答えの判定の 画面の表示 
@@ -115,7 +115,7 @@ checkBtn8.addEventListener('click', function () {
 
     let answer8 = document.getElementById('answer8');
 
-    answer8.textContent = 'こたえは、４ うその情報';
+    answer8.textContent = 'こたえは、１ です。';
 
 
     // 答えの判定の 画面の表示 
